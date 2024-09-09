@@ -4,34 +4,47 @@
         "urlDeploy": "https://web-dice-psi.vercel.app/",
         "urlRepo": "https://github.com/AntonioGloria/WebDice",
         "description": "An app to throw 3D-simulated dice, change the number and color of dice, with motion controls for dice throwing in the mobile version",
-        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png"
+        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
+        "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "cannon-es", "Blender"]
+    },
+    {
+        "title": "Clock3D",
+        "urlDeploy": "https://clock3d.vercel.app/",
+        "urlRepo": "https://github.com/AntonioGloria/Clock3D",
+        "description": "A simple app that displays a 3D Clock in a web browser, created to try out Three.js and become more familiar with it. The clock reads the time when the app loads, then calculates the angles of the hands and subsequent times base on the initial time.",
+        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
+        "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "Blender"]
     },
     {
         "title": "HomePrint",
-        "urlDeploy": "https://jutsu-inky.vercel.app/",
+        "urlDeploy": "https://github.com/AntonioGloria/homeprint-client",
         "urlRepo": "https://github.com/AntonioGloria/homeprint-client",
         "description": "An app to allow devices in a local network to print PDF files without installing a printer",
-        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png"
+        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
+        "technologies": ["Node.js", "Express.js", "Vite", "React.js", "Axios"]
     },
     {
         "title": "Jutsu",
         "urlDeploy": "https://jutsu-inky.vercel.app/",
         "urlRepo": "https://github.com/AntonioGloria/design-portfolio-client",
         "description": "A platform to publish online portfolios by uploading images and details for each portfolio piece",
-        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png"
+        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
+        "technologies": ["Node.js", "Express.js", "React.js", "Bootstrap", "Axios", "MongoDB", "Cloudinary"]
     },
     {
         "title": "tast-E",
         "urlDeploy": "https://tast-e.adaptable.app/",
         "urlRepo": "https://github.com/AntonioGloria/online-cookbook",
         "description": "An application for creating recipes, rating and commenting on them",
-        "thumbnail": "./img/projectThumbnails/tastE_RepoCard.png"
+        "thumbnail": "./img/projectThumbnails/tastE_RepoCard.png",
+        "technologies": ["Node.js", "Express.js", "JavaScript", "Handlebars", "CSS3", "MongoDB", "Cloudinary"]
     },
     {
         "title": "AstroWar",
         "urlDeploy": "https://antoniogloria.github.io/astrowar/",
         "urlRepo": "https://github.com/AntonioGloria/astrowar",
         "description": "Created a web-browser video game where the player controls a spaceship battling other spaceships",
-        "thumbnail": "./img/projectThumbnails/AstroWar_RepoCard.png"
+        "thumbnail": "./img/projectThumbnails/AstroWar_RepoCard.png",
+        "technologies": ["HTML5", "CSS3", "JavaScript"]
     }
 ]

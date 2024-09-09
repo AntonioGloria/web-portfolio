@@ -10,18 +10,12 @@ export default function App() {
     <div className="App">
       <Header/>
       <Container className='my-5'>
-        <h2>My Projects</h2>
-        <Row className='my-5'>
+        <h2 className='mb-5'>My Projects</h2>
+        <Row className='gy-4'>
           {projectData.map((project, i) => {
             return (
               <Col key={i} xs={12} md={6} className='d-flex justify-content-center'>
-                <ProjectCard
-                  title={project.title}
-                  urlDeploy={project.urlDeploy}
-                  urlRepo={project.urlRepo}
-                  description={project.description}
-                  thumbnail={project.thumbnail}
-                />
+                <ProjectCard project={project}/>
               </Col>
             )
           })}
