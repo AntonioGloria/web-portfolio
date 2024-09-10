@@ -5,7 +5,8 @@
         "urlRepo": "https://github.com/AntonioGloria/WebDice",
         "description": "An app to throw 3D-simulated dice, change the number and color of dice, with motion controls for dice throwing in the mobile version",
         "thumbnail": "./img/projectThumbnails/thumbnail_WebDice.png",
-        "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "cannon-es", "Blender"]
+        "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "cannon-es", "Blender"],
+        "icon": "./img/projectIcons/icon_WebDice.png"
     },
     {
         "title": "Clock3D",
@@ -13,7 +14,8 @@
         "urlRepo": "https://github.com/AntonioGloria/Clock3D",
         "description": "A simple app that displays a 3D Clock in a web browser, created to try out Three.js and become more familiar with it. The clock reads the time when the app loads, then calculates the angles of the hands and subsequent times base on the initial time.",
         "thumbnail": "./img/projectThumbnails/thumbnail_Clock3D.png",
-        "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "Blender"]
+        "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "Blender"],
+        "icon": "./img/projectIcons/icon_WebDice.png"
     },
     {
         "title": "HomePrint",
@@ -21,7 +23,8 @@
         "urlRepo": "https://github.com/AntonioGloria/homeprint-client",
         "description": "An app to allow devices in a local network to print PDF files without installing a printer",
         "thumbnail": "./img/projectThumbnails/thumbnail_HomePrint.png",
-        "technologies": ["Node.js", "Express.js", "Vite", "React.js", "Axios"]
+        "technologies": ["Node.js", "Express.js", "Vite", "React.js", "Axios"],
+        "icon": "./img/projectIcons/icon_HomePrint.png"
     },
     {
         "title": "Jutsu",
@@ -29,7 +32,8 @@
         "urlRepo": "https://github.com/AntonioGloria/design-portfolio-client",
         "description": "A platform to publish online portfolios by uploading images and details for each portfolio piece",
         "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
-        "technologies": ["Node.js", "Express.js", "React.js", "Bootstrap", "Axios", "MongoDB", "Cloudinary"]
+        "technologies": ["Node.js", "Express.js", "React.js", "Bootstrap", "Axios", "MongoDB", "Cloudinary"],
+        "icon": "./img/projectIcons/icon_Jutsu.png"
     },
     {
         "title": "tast-E",
@@ -37,7 +41,8 @@
         "urlRepo": "https://github.com/AntonioGloria/online-cookbook",
         "description": "An application for creating recipes, rating and commenting on them",
         "thumbnail": "./img/projectThumbnails/thumbnail_tast-E.png",
-        "technologies": ["Node.js", "Express.js", "JavaScript", "Handlebars", "CSS3", "MongoDB", "Cloudinary"]
+        "technologies": ["Node.js", "Express.js", "JavaScript", "Handlebars", "CSS3", "MongoDB", "Cloudinary"],
+        "icon": "./img/projectIcons/icon_tast-E.png"
     },
     {
         "title": "AstroWar",
@@ -45,6 +50,7 @@
         "urlRepo": "https://github.com/AntonioGloria/astrowar",
         "description": "Created a web-browser video game where the player controls a spaceship battling other spaceships",
         "thumbnail": "./img/projectThumbnails/thumbnail_AstroWar.png",
-        "technologies": ["HTML5", "CSS3", "JavaScript"]
+        "technologies": ["HTML5", "CSS3", "JavaScript"],
+        "icon": "./img/projectIcons/icon_AstroWar.png"
     }
 ]

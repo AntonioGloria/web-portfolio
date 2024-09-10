@@ -10,6 +10,8 @@ $body-color: $white;
 $link-hover-color: lighten($primary, 10%);
 $badge-color: lighten($primary, 50%);
 
+$card-cap-bg: $body-bg;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 .footer {

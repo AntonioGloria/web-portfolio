@@ -7,14 +7,18 @@ export default function ProjectCard({project}) {
       thumbnail,
       urlDeploy,
       urlRepo,
-      technologies
+      technologies,
+      icon
     } = project;
 
   return (
-    <Card>
+    <Card border={'primary'}>
+      <Card.Header className='d-flex align-items-center'>
+        <img src={icon} className='me-3'/>
+        <Card.Title>{title}</Card.Title>
+      </Card.Header>
       <Card.Img src={thumbnail} alt={title}/>
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
         <Card.Text className='text-start'>{description}</Card.Text>
         <Card.Text className='text-start'>
           {technologies.map((tech, i) => <Badge className='me-2 bg-opacity-25' pill key={i}>{tech}</Badge>)}
