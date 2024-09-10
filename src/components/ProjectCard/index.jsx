@@ -17,7 +17,7 @@ export default function ProjectCard({project}) {
         <Card.Title>{title}</Card.Title>
         <Card.Text className='text-start'>{description}</Card.Text>
         <Card.Text className='text-start'>
-          {technologies.map((tech, i) => <Badge className='me-2' pill key={i}>{tech}</Badge>)}
+          {technologies.map((tech, i) => <Badge className='me-2 bg-opacity-25' pill key={i}>{tech}</Badge>)}
         </Card.Text>
       </Card.Body>
 

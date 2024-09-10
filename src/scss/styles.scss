@@ -1,0 +1,22 @@
+$primary: #008dc5;
+
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$body-bg: $gray-900;
+$body-color: $white;
+
+$link-hover-color: lighten($primary, 10%);
+$badge-color: lighten($primary, 50%);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.footer {
+    background-color: $indigo-900;
+}
+
+.badge {
+    @extend .badge;
+    padding: 0.5em 1em;
+}
