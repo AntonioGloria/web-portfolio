@@ -1,8 +1,10 @@
 $primary: #008dc5;
 
+@import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/_functions.scss";
 @import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/utilities/";
 
 $body-bg: $gray-900;
 $body-color: $white;
@@ -12,6 +14,17 @@ $badge-color: lighten($primary, 50%);
 
 $card-cap-bg: $body-bg;
 
+$utilities: map-merge(
+    $utilities,
+    (
+        "font-size": map-merge(
+            map-get($utilities, "font-size"),
+            (responsive: true),
+        ),
+    )
+);
+
+@import "../../node_modules/bootstrap/scss/utilities/api";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 .footer {

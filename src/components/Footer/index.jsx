@@ -2,9 +2,9 @@ import SketchfabIcon from '../SketchfabIcon';
 
 export default function Footer() {
   return (
-    <footer className='fs-4 d-flex justify-content-between p-4 footer'>
-      <div className='text-primary mx-5'>Antonio Gloria</div>
-      <div className='mx-5'>
+    <footer className='fs-sm-6 fs-md-4 d-flex justify-content-between p-4 footer'>
+      <div className='text-primary mx-md-5'>Antonio Gloria</div>
+      <div className='mx-md-5'>
       <a title='Github' className='m-2' href='https://github.com/AntonioGloria'>
         <i className='fa-brands fa-github'></i>
       </a>
