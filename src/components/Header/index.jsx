@@ -1,9 +1,7 @@
-import AGloriaLogo from "../AGloriaLogo";
-
 export default function Header() {
   return (
     <header
-      className='d-flex justify-content-around p-3 p-lg-5 h-50'
+      className='d-flex justify-content-around align-items-center p-3 p-lg-5 h-50'
       style={{
         backgroundImage: 'linear-gradient(#21252900, #212529FF), url("./img/Header.png")',
         backgroundRepeat: 'no-repeat',
@@ -11,7 +9,7 @@ export default function Header() {
         backgroundSize: 'cover'
       }}
     >
-      <AGloriaLogo width={'36vw'} className='d-none d-lg-block'/>
+      <img src='./img/AGloriaLogo_Hero.png' style={{height:'48vh'}} className='d-none d-lg-block'/>
       <div className='text-start w-lg-50'>
         <p className='display-3 display-xl-1'>Hello, I&apos;m  Antonio</p>
         <p className='fs-6 fs-xl-4'>
