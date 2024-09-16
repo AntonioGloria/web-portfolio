@@ -1,9 +1,9 @@
 [
     {
         "title": "WebDice",
-        "urlDeploy": "https://web-dice-psi.vercel.app/",
+        "urlDeploy": "https://web-dice-3d.vercel.app/",
         "urlRepo": "https://github.com/AntonioGloria/WebDice",
-        "description": "An app to throw 3D-simulated dice, change the number and color of dice, with motion controls for dice throwing in the mobile version",
+        "description": "An app to throw 3D-simulated dice. Users can also change the number and color of dice. Motion controls for throwing the dice are available for mobile devices.",
         "thumbnail": "./img/projectThumbnails/thumbnail_WebDice.png",
         "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "cannon-es", "Blender"],
         "icon": "./img/projectIcons/icon_WebDice.png"
@@ -12,7 +12,7 @@
         "title": "Clock3D",
         "urlDeploy": "https://clock3d.vercel.app/",
         "urlRepo": "https://github.com/AntonioGloria/Clock3D",
-        "description": "A simple app that displays a 3D Clock in a web browser, created to try out Three.js and become more familiar with it. The clock reads the time when the app loads, then calculates the angles of the hands and subsequent times base on the initial time.",
+        "description": "A simple app that displays a 3D Clock in a web browser, created to try out Three.js and become more familiar with it. The clock reads the time when the app loads, then calculates the angles of the hands and subsequent times based on the initial time.",
         "thumbnail": "./img/projectThumbnails/thumbnail_Clock3D.png",
         "technologies": ["Node.js", "Vite", "HTML5", "CSS3", "Three.js", "Blender"],
         "icon": "./img/projectIcons/icon_WebDice.png"
@@ -21,16 +21,16 @@
         "title": "HomePrint",
         "urlDeploy": "https://github.com/AntonioGloria/homeprint-client",
         "urlRepo": "https://github.com/AntonioGloria/homeprint-client",
-        "description": "An app to allow devices in a local network to print PDF files without installing a printer",
+        "description": "An app to allow devices in a local network to print PDF files without installing a printer.",
         "thumbnail": "./img/projectThumbnails/thumbnail_HomePrint.png",
         "technologies": ["Node.js", "Express.js", "Vite", "React.js", "Axios"],
         "icon": "./img/projectIcons/icon_HomePrint.png"
     },
     {
         "title": "Jutsu",
-        "urlDeploy": "https://jutsu-inky.vercel.app/",
+        "urlDeploy": "https://jutsu-showcase.vercel.app/",
         "urlRepo": "https://github.com/AntonioGloria/design-portfolio-client",
-        "description": "A platform to publish online portfolios by uploading images and details for each portfolio piece",
+        "description": "A platform to publish online art and design portfolios. Users upload images, assign categories, define media, and write a title and description for each portfolio piece. Portfolio pieces can be further organized by adding them to albums.",
         "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
         "technologies": ["Node.js", "Express.js", "React.js", "Bootstrap", "Axios", "MongoDB", "Cloudinary"],
         "icon": "./img/projectIcons/icon_Jutsu.png"
@@ -39,7 +39,7 @@
         "title": "tast-E",
         "urlDeploy": "https://tast-e.adaptable.app/",
         "urlRepo": "https://github.com/AntonioGloria/online-cookbook",
-        "description": "An application for creating recipes, rating and commenting on them",
+        "description": "An application for creating recipes, rating them and commenting on them.",
         "thumbnail": "./img/projectThumbnails/thumbnail_tast-E.png",
         "technologies": ["Node.js", "Express.js", "JavaScript", "Handlebars", "CSS3", "MongoDB", "Cloudinary"],
         "icon": "./img/projectIcons/icon_tast-E.png"
@@ -48,7 +48,7 @@
         "title": "AstroWar",
         "urlDeploy": "https://antoniogloria.github.io/astrowar/",
         "urlRepo": "https://github.com/AntonioGloria/astrowar",
-        "description": "Created a web-browser video game where the player controls a spaceship battling other spaceships",
+        "description": "A web-browser shoot-em up game where the player controls a spaceship battling other spaceships.",
         "thumbnail": "./img/projectThumbnails/thumbnail_AstroWar.png",
         "technologies": ["HTML5", "CSS3", "JavaScript"],
         "icon": "./img/projectIcons/icon_AstroWar.png"
