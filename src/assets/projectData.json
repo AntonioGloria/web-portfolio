@@ -31,7 +31,7 @@
         "urlDeploy": "https://jutsu-showcase.vercel.app/",
         "urlRepo": "https://github.com/AntonioGloria/design-portfolio-client",
         "description": "A platform to publish online art and design portfolios. Users upload images, assign categories, define media, and write a title and description for each portfolio piece. Portfolio pieces can be further organized by adding them to albums.",
-        "thumbnail": "./img/projectThumbnails/Jutsu_RepoCard.png",
+        "thumbnail": "./img/projectThumbnails/thumbnail_Jutsu.png",
         "technologies": ["Node.js", "Express.js", "React.js", "Bootstrap", "Axios", "MongoDB", "Cloudinary"],
         "icon": "./img/projectIcons/icon_Jutsu.png"
     },
