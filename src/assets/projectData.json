@@ -37,7 +37,7 @@
     },
     {
         "title": "tast-E",
-        "urlDeploy": "https://tast-e.adaptable.app/",
+        "urlDeploy": "https://online-cookbook.fly.dev/",
         "urlRepo": "https://github.com/AntonioGloria/online-cookbook",
         "description": "An application for creating recipes, rating them and commenting on them.",
         "thumbnail": "./img/projectThumbnails/thumbnail_tast-E.png",

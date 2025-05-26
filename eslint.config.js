@@ -35,5 +35,13 @@ export default [
       ],
       "react/prop-types": "off",
     },
+    resolve: {
+        alias: {
+            './runtimeConfig': './runtimeConfig.browser'
+        }
+    },
+    define: {
+        _global: ({})
+    },
   },
 ]
